@@ -54,7 +54,7 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <div className="logo">
-                    <img src="../../public/yourpassword.png" alt="YourPassword Logo" className="logo-image" /> {/* Replace with your logo */}
+                    <img src="../yourpassword.png" alt="YourPassword Logo" className="logo-image" /> {/* Replace with your logo */}
                 </div>
                 <button className="menu-toggle" onClick={toggleMenu}>
                     {isMenuOpen ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} />}
