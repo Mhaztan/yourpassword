@@ -1,0 +1,35 @@
+/* src/pages/PrivacyPage.css */
+.privacy-page {
+    padding: 2rem;
+    text-align: center;
+}
+
+.privacy-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: green;
+}
+
+.privacy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+     color: #ddd;
+}
+
+.privacy-content p {
+    margin-bottom: 1.5rem;
+}
+
+
+.privacy-section {
+    margin-bottom: 2rem;
+}
+
+.privacy-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: blue;
+}

@@ -1,0 +1,37 @@
+/* src/pages/TipsPage.css */
+.tips-page {
+    padding: 2rem;
+    text-align: center;
+}
+
+.tips-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: green;
+}
+
+.tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.tip-article {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.tip-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: blue;
+}
+
+.tip-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+}

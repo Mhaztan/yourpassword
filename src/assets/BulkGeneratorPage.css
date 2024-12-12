@@ -1,0 +1,78 @@
+/* src/pages/BulkGeneratorPage.css */
+.bulk-generator-page {
+    padding: 2rem;
+    text-align: center;
+}
+.bulk-generator-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: green;
+}
+.bulk-generator-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: left;
+     margin-bottom: 1rem;
+}
+.checkbox-group label {
+     display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.generate-button {
+    background-color: blue;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.generate-button:hover {
+    background-color: #2251a3;
+}
+.passwords-display {
+    margin-top: 1rem;
+}
+.generated-passwords-list {
+    list-style: none;
+     padding: 0;
+     text-align: left;
+     margin-bottom: 1rem;
+}
+.password-item {
+    word-wrap: break-word;
+      margin-bottom: 0.3rem;
+     background-color: #222;
+     padding: 0.5rem;
+      border-radius: 4px;
+}
+.download-button {
+   background-color: green;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.download-button:hover {
+      background-color: #1e5e1e;
+}
+.error-message {
+    color: red;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,39 @@
+/* src/pages/TwoFactorAuthPage.css */
+.two-factor-auth-page {
+    padding: 2rem;
+    text-align: center;
+}
+.two-factor-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: green;
+}
+.two-factor-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ddd;
+}
+.two-factor-section {
+    margin-bottom: 2rem;
+}
+.two-factor-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+     color: blue;
+}
+.two-factor-content ul {
+    padding-left: 2rem;
+}
+.two-factor-content li {
+    margin-bottom: 0.5rem;
+}
+.two-factor-content a {
+    color: blue;
+    text-decoration: underline;
+}
+.two-factor-content a:hover {
+    color: #336bb4;
+}

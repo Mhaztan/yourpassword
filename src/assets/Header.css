@@ -1,0 +1,126 @@
+.header {
+    background-color: #111;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    position: sticky; /* Makes the header sticky */
+    top: 0; /* Positions it at the top */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    max-height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.app-name {
+    font-size: 1.5em;
+    color: #00FF00;
+    margin-right: 20px;
+}
+
+.menu-toggle {
+    display: none; /* Hidden on larger screens */
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex; /* Always show on larger screens */
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    display: flex; /* Horizontal on larger screens */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 1rem; /* Adjust spacing between items */
+}
+
+.nav-icon {
+    margin-right: 0.5rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #00FF00;
+    border-bottom: 2px solid #00FF00;
+}
+
+
+/* Media query for mobile only styles */
+@media (max-width: 767px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #111;
+        text-align: center;
+        align-items: center;
+    }
+    .nav.open {
+        display: flex;
+    }
+    .logo {
+        display: block;
+    }
+    .app-name {
+        display: none;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-item {
+        margin: 0.5rem 0;
+        width: 100%;
+    }
+    .nav-link{
+      width: 100%;
+      text-align: center;
+      display: block;
+      padding: 0.8rem 1.2rem;
+    }
+
+}

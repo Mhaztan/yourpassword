@@ -1,0 +1,45 @@
+/* src/pages/AboutPage.css */
+.about-page {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: green;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-content p {
+    margin-bottom: 1.5rem;
+     color: #ddd;
+}
+
+.contact-title {
+     font-size: 2rem;
+    margin-bottom: 1rem;
+    color: blue;
+}
+
+.contact-details {
+     margin-top: 1rem;
+     text-align: left;
+}
+.contact-details p {
+    margin-bottom: 0.5rem;
+}
+.contact-details a {
+    color: blue;
+    text-decoration: underline;
+}
+.contact-details a:hover {
+    color: #336bb4;
+}

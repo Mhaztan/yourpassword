@@ -1,0 +1,110 @@
+/* src/pages/PhishingSimulationPage.css */
+.phishing-simulation-page {
+    padding: 2rem;
+    text-align: center;
+}
+.phishing-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: green;
+}
+.phishing-section {
+     margin-bottom: 2rem;
+}
+.phishing-section-title {
+     font-size: 2rem;
+    margin-bottom: 1rem;
+     color: blue;
+}
+.phishing-examples {
+     display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+}
+.phishing-example {
+   background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: left;
+}
+.example-title {
+     font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.example-content {
+    font-size: 1rem;
+   line-height: 1.6;
+   color: #ddd;
+}
+.explanation {
+    font-size: 0.9rem;
+    line-height: 1.4;
+     color: #aaa;
+     margin-top: 0.5rem;
+}
+/* Quiz Styles */
+.quiz-section {
+    margin-top: 1rem;
+}
+.start-quiz-button {
+    background-color: blue;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.start-quiz-button:hover {
+    background-color: #2251a3;
+}
+.quiz-content {
+    margin-top: 1rem;
+}
+.question-text {
+     font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.options-list {
+    display: flex;
+     flex-direction: column;
+     gap: 0.5rem;
+}
+.option-button {
+      background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.option-button:hover {
+    background-color: #555;
+}
+.quiz-answer {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #222;
+    border-radius: 4px;
+}
+
+.quiz-answer p {
+     margin-bottom: 1rem;
+}
+
+.next-question-button {
+      background-color: green;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.next-question-button:hover {
+       background-color: #1e5e1e;
+}
+.quiz-results {
+    margin-top: 1rem;
+}

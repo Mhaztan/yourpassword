@@ -1,0 +1,31 @@
+/* src/pages/TermsPage.css */
+.terms-page {
+    padding: 2rem;
+    text-align: center;
+}
+
+.terms-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: green;
+}
+.terms-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+     color: #ddd;
+}
+.terms-content p {
+   margin-bottom: 1.5rem;
+}
+
+.terms-section {
+    margin-bottom: 2rem;
+}
+.terms-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: blue;
+}
